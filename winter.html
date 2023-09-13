@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE-edge">
+ <meta name="viewport" content="width=device-width?initial-scale=1.0">
+ <title>Зима</title>
+ <style>
+  td {
+    font-size:30px;
+    font: size 30px;
+    border:3px solid blue;
+    padding:50px;
+    border-radius:50%
+}  
+table{
+    border:10px groove rebeccapurple;
+    padding:30px;
+    border-spacing:40px;
+}
+caption{
+    font-size:40px;
+}  
+iframe{
+    margin-top:50px;
+    margin-left:50px;
+    width:90%;
+    height:650px
+}
+#snow {
+position:absolute;
+top:60px;
+left:100px;
+animation: go 6s infinite alternate;
+}
+#snow2 {
+    position:absolute;
+top:60px;
+left:500px;
+animation: go 9s infinite;
+animation-delay:3s;
+}
+#snow3 {
+    position:absolute;
+top:60px;
+left:700px;
+animation: go 9s infinite;
+animation-delay:3s;
+}
+@keyframes go {
+    from {
+            transform: translateY(0%)
+        }
+        to {
+            transform: translateY(2000px)
+        }
+}
+ </style>
+</head>
+
+<body>
+    <h1 style="color:blue; background-color:white;font-size:50px;
+    text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:10px groove rgb(109, 47, 106);">Зима 2023</h1>
+<p style="color:navy; background-color: snow;font-size:30px;width: fit-content;
+padding:40px;border-radius:20px;">
+Разукрасилась зима: <br>
+На уборе бахрома <br>
+Из прозрачных льдинок,<br>
+Звездочек-снежинок.<br>
+Вся в алмазах, жемчугах,<br>
+В разноцветных огоньках,<br>
+Льет вокруг сиянье,<br>
+Шепчет заклинанье:<br>
+— Лягте, мягкие снега,<br>
+На леса и на луга,<br>
+Тропы застелите,<br>
+Ветви опушите!
+</p>
+<p style="color:dodgerblue; background-color:cornsilk; font-size:40px;width:fit-content;
+padding:30px;border-radius:40px;">
+Мне ночью снились горы…<br>
+Высокая гора,<br>
+Та самая, с которой<br>
+Катались мы вчера.<br>
+Мы до деревни ближней<br>
+Неслись по целине,<br>
+И ночью снег и лыжни,<br>
+Блестящий снег и лыжни<br>
+Всё время снились мне.
+</p>
+<ul style="color:blueviolet; background-color:cyan; font-size:40px;padding:30px;padding-left:100px;
+margin-top:100px; margin-left:200px;width:fit-content;border-radius:40px">
+<li>идет снег</li>
+<li>холодно</li>
+<li>все в снегу</li>
+</ul>
+<table>
+    <caption>Календарь зимы</caption>
+    <tr> 
+        <td>Декабрь</td> 
+        <td>31</td>
+    </tr>
+        <td>Январь</td> 
+        <td>31</td>
+    </tr>
+        <td>Февраль</td> 
+        <td>28</td>
+    </tr>
+</table>
+<img src="зима.jpg" style="margin-left:50%;margin: top -700px;width:600px;
+border-radius:30px;">
+<img src="зима2.jpg"alt=style=""margin-left:50px;margin-top:40px>
+ <video src="зимущка.mp4" controls></video>
+ <audio src="Alsu_-_Zimnijj_son_48384419.mp3"
+controls></audio>
+<video src="снежинки.mp4" controls></video> 
+ <img src="snowflakes_42360.png" id="snow">
+ <img src="snowflakes_42360.png" id="snow2">
+ <img src="snowflakes_42360.png" id="snow3">
+</body>
+</html>

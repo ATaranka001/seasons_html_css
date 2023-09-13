@@ -1,0 +1,53 @@
+body {background-image:url(blurred-green-palm-leaves-off-white.jpg);
+    background-size:cover;
+    background-size:rgb(8, 8, 63);
+}
+h1 {
+    background-color:rgba(177, 1, 177, 0.726);
+    padding:60px;
+    text-align:center;
+    font-size: 50px;
+    color:rgb(255, 217, 0);
+}
+h2 {
+    font-size:30px;
+}
+li {
+    font-size: 30px;
+    color:rgb(255, 187, 0);
+}
+li:nth-child(1){
+    color:rgb(247, 201, 0) ;
+}
+li:nth-child(2) {
+    color:rgb(201, 2, 108);
+}
+li:nth-child(3) {
+    color:mediumblue
+}
+p{
+    font-size:20px;
+    font-family:fantasy;
+}
+section {
+    width:50%;
+    margin:auto
+}
+table {
+}
+td{
+    padding:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+caption{
+    font-size:30px;
+    margin-top:30px;
+    margin-bottom:15px;
+    font-weight:bold;
+    text-shadow:5px 5px 5px rgb(146, 68, 68);
+    text-transform: uppercase;
+}
+img{
+    width:55%;
+}
