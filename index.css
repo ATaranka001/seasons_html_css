@@ -1,53 +1,94 @@
-h1{
-    color:aqua;
-text-align: center;
+h1 {
+    color: aqua;
+    text-align: center;
 }
 
-body{
+body {
     background-image: url(6013010.jpg);
     height: 100vh;
     background-size: cover;
 }
-h1{
+
+h1 {
     color: blue;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
 }
-nav a{
-    font-size:3em;
-    text-decoration:none;
-     padding: 20px;
+
+nav a {
+    font-size: 3em;
+    text-decoration: none;
+    padding: 20px;
 }
-a:visited{
-    color:darkmagenta;
+
+a:visited {
+    color: darkmagenta;
 }
-a:link{
-    color:chocolate;
+
+a:link {
+    color: chocolate;
 }
-a:hover{
-    background-color:gold;
+
+a:hover {
+    background-color: gold;
     border-radius: 50%;
-    text-shadow:5px 5px 5px olivedrab;
+    text-shadow: 5px 5px 5px olivedrab;
 
 }
-.clock{
+
+.clock {
     width: 20vw;
     height: 20vw;
-    border:10px groove gold;
+    border: 10px groove gold;
     position: relative;
-    margin:auto;
-    border-radius:50% ;
-    margin-top:100px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 100px;
     background-color: rgba(255, 217, 0, 0.445);
 
 }
-.strelka1{
-    width:45%;
-    height:10px;
+
+.strelka1 {
+    width: 45%;
+    height: 10px;
     background-color: brown;
     position: absolute;
-    top: 50%;
+    top:calc(50% - 5px);
     left: 50%;
+    animation:start 60s linear infinite;
+    transform-origin:left;
+}
+
+
+.strelka2 {
+    width: 35%;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    top:calc(50% - 5px);
+    left: 50%;
+    animation:start 3600s linear infinite;
+    transform-origin:left ;
+}
+ .bolt3{
+    width: 14px;
+    height: 14px;
+    background-color: brown;
+    position: absolute;
+    top:calc(50% - 7px); 
+    left:calc(50% - 7px);
+    border-radius:50%;
+ }
+
+ @keyframes start {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
 }
